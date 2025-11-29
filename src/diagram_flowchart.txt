@@ -1,0 +1,70 @@
++---------------------------------------------------------------+
+|                         Aplikacja STUDY-MATE                  |
++---------------------------------------------------------------+
+
+Start
+    |
+    v
++----------------------------------------------+
+| Problem: brak struktury i przeładowanie info |
++----------------------------------------------+
+    |
+    v
++----------------------------------------------+
+| Cel: zwiększyć efektywność nauki              |
+| - prosty interfejs                            |
+| - klarowna struktura planowania               |
+| - motywujące informacje zwrotne               |
++----------------------------------------------+
+    |
+    v
++----------------------------------------------+
+| Odbiorcy: studenci 18-25 lat                  |
++----------------------------------------------+
+    |
+    v
++---------------------------+    +--------------------------+
+| Główne funkcje:          | -> | Korzyści dla użytkownika |
++---------------------------+    +--------------------------+
+| 1) Lista zadań            |    | - lepsze priorytety      |
+|   - dodaj/edytuj/oznacz   |    | - mniej stresu           |
+|   - kategorie, priorytety |    | - szybsze osiąganie celów|
++---------------------------+    +--------------------------+
+| 2) Kalendarz tygodniowy   |    +--------------------------+
+|   - planowanie bloków     |
+|   - przypomnienia         |
++---------------------------+
+| 3) Proste statystyki      |
+|   - postępy, nawyki       |
+|   - wizualne feedback     |
++---------------------------+
+    |
+    v
++----------------------------------------------+
+| Przepływ użytkownika (przykładowy)           |
++----------------------------------------------+
+    |
+    v
+[Użytkownik] -> (Dodaj zadanie) -> [Lista zadań] -> (Przypisz do dnia/bloku) -> [Kalendarz]
+             |                                                           ^
+             |                                                           |
+             +-> (Codzienny przegląd) -> (Oznacz wykonane) -> [Statystyki] --+
+                                                                                                                                             |
+                                                                                                                                             v
+                                                                                                                            (Tygodniowy przegląd)
+                                                                                                                                             |
+                                                                                                                                             v
+                                                                                                                        (Dostosuj plan, cele, nawyki)
+                                                                                                                                             |
+                                                                                                                                             v
+                                                                                                                                    Powrót do
+                                                                                                                                    [Lista zadań]
+                                                                                                                                             |
+                                                                                                                                             v
+                                                                                                                                Koniec cyklu (iteracja)
+
+Legenda:
+- Iteracyjny cykl: dodawanie zadań -> planowanie -> wykonanie -> analiza -> korekta
+- Cel UX: minimalna złożoność, szybka identyfikacja priorytetów, motywujące feedbacki
+
+Koniec
