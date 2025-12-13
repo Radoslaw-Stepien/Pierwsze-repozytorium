@@ -28,7 +28,8 @@
 - ustawienia użytkownika: język, motyw (jasny/ciemny), powiadomienia włącz/wyłącz
 
 ## IV. Lista źródeł pomysłu
-- własna potrzeba: usprawnienie codziennego planowania zadań
-- obserwacje znajomych: potrzeba prostych narzędzi bez nadmiaru funkcji
-- istniejące aplikacje: inspiracja układem dashboardu i filtrowaniem
-- przypadek: brak dostępnych narzędzi do szybkiego eksportu prostych raportów
+- **własna potrzeba:** usprawnienie codziennego planowania zadań
+- **obserwacje znajomych:** potrzeba prostych narzędzi bez nadmiaru funkcji
+- **istniejące aplikacje:** inspiracja układem dashboardu i filtrowaniem
+- **przypadek:** brak dostępnych narzędzi do szybkiego eksportu prostych raportów
+---
