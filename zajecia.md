@@ -36,4 +36,10 @@ __pogrubienie__ i _kursywa_ wystepuje tez w alternatywnej wersji.
 2. drugi element
 3. trzeci element
 
+```mermaid
+flowchart TD
+   A[Start] --> B{Decision}
+   B -->|Yes| C[Do Task]
+   B -->|No| D[End]
+```
 
